@@ -1,8 +1,8 @@
 $ff-sans: system-ui, sans-serif;
 $ff-serif: serif;
 
-$ff-base: $ff-sans;
-$ff-accent: $ff-serif;
+$font-family-base: $-ff-sans;
+$font-family-accent: $-ff-sans;
 
 /* @link https://utopia.fyi/type/calculator?c=340,16,1.2,1240,20,1.25,5,2,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
 $font-sizes: (
@@ -24,5 +24,19 @@ $font-sizes: (
   '900': clamp(2.49rem, calc(1.99rem + 2.36vw), 3.82rem),
 );
 
+$font-size-200: var(--fs-200);
+$font-size-300: var(--fs-300);
+$font-size-400: var(--fs-400);
+$font-size-500: var(--fs-500);
+$font-size-600: var(--fs-600);
+$font-size-700: var(--fs-700);
+$font-size-800: var(--fs-800);
+$font-size-900: var(--fs-900);
+
 $fw-400: 400;
+$fw-500: 500;
 $fw-700: 700;
+
+$font-weight-default: $-fw-400;
+$font-weight-semi-bold: $-fw-500;
+$font-weight-bold: $-fw-700;
